@@ -6,3 +6,11 @@ h1 {
     font-size: 50px;
     color: rebeccapurple;
 }
+
+#contacts-link {
+    color: green;
+}
+
+[href="https://softuni.bg/"] {
+    color: palevioletred;
+}

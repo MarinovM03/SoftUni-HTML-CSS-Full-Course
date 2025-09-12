@@ -11,6 +11,10 @@ h1 {
     color: green;
 }
 
-[href="https://softuni.bg/"] {
+a[href="https://softuni.bg/"] {
     color: palevioletred;
+}
+
+ul h1 {
+    color: blue;
 }

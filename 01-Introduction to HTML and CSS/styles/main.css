@@ -2,9 +2,9 @@ body {
     background-color: rgb(247, 241, 235);
 }
 
-h1 {
+/* h1 {
     color: red;
-}
+} */
 
 .special-text {
     font-size: 50px;
@@ -19,6 +19,32 @@ a[href="https://softuni.bg/"] {
     color: palevioletred;
 }
 
-ul h1 {
+/* ul h1 {
     color: blue;
+} */
+
+
+/* Specificity - [1 0 0] */
+#contacts-link {
+    color: grey;
+}
+
+/* Specificity - [0 1 0] */
+.special-text {
+    color: pink;
+}
+
+/* Specificity - [0 1 1] */
+a[href="https://softuni.bg/"] {
+    color: yellowgreen;
+}
+
+/* Specificity - [0 0 4] */
+ul ol li h1 {
+    color: green;
+}
+
+/* Specificity - [0 0 1] */
+h1 {
+    color: red;
 }

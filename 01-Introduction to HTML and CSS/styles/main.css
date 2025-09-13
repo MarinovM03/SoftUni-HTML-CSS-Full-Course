@@ -48,3 +48,18 @@ ul ol li h1 {
 h1 {
     color: red;
 }
+
+
+/* Text & Font examples */
+
+html {
+    font-size: 16px;
+}
+
+section .title {
+    font-size: 2rem;
+}
+
+section ul {
+    font-size: 2rem;
+}

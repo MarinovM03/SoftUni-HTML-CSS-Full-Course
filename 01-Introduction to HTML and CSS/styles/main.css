@@ -53,19 +53,45 @@ h1 {
 /* Text & Font examples */
 
 
-/* html {
+html {
     font-size: 16px;
 }
 
 section .title {
     font-size: 2rem;
+    font-style: italic;
+    text-align: center;
+    letter-spacing: 1px;
 }
 
 section ul {
     font-size: 2rem;
+    font-weight: bold;
+}
+
+section .description {
+    font-size: 1.2rem;
+    text-indent: 15px;
+    /* opacity: 0.5; */
+    /* color: rgba(0, 0, 0, 0.5); */
+    text-shadow: 5px 5px 4px orangered;
+}
+
+.longText {
+    font-size: 3rem;
+    background-color: greenyellow;
+    width: 300px;
+    
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+/* img {
+    opacity: 0.5;
 } */
 
-html {
+/* html {
     font-size: 20px;
 }
 
@@ -75,4 +101,4 @@ section .title {
 
 section ul {
     font-size: 0.75em;
-}
+} */

@@ -10,6 +10,10 @@ li {
     padding: 5px 8px;
 }
 
+li:hover {
+    background-color: green;
+}
+
 a {
     text-decoration: none;
     color: white;

@@ -1,0 +1,21 @@
+.header-nav {
+    display: flex;
+    gap: 20px;
+    justify-content: space-around;
+}
+
+.header-nav li {
+    list-style-type: none;
+    border: 1px solid green;
+    padding: 5px 8px;
+    border-radius: 5px;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1,h2,h3, p {
+    text-align: center;
+}
+

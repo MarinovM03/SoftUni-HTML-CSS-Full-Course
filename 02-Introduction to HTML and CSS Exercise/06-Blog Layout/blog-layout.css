@@ -19,3 +19,18 @@ h1,h2,h3, p {
     text-align: center;
 }
 
+@media (width <= 400px) {
+    .header-nav {
+        flex-direction: column;
+        gap: 0;
+    }
+    
+    .header-nav li {
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .link {
+        display: none;
+    }
+}

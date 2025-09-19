@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(185, 183, 181)
+    background-color: rgb(194, 192, 190)
 }
 
 .title {
@@ -23,3 +23,9 @@ body {
     font-weight: bold;
     font-size: 20px;
 }
+
+h2 {
+    padding-top: 50px;
+    text-align: center;
+}
+

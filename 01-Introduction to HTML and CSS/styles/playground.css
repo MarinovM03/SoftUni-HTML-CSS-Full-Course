@@ -1,7 +1,12 @@
-h1 {
+body {
+    background-color: rgb(185, 183, 181)
+}
+
+.title {
     text-align: center;
     font-style: italic;
     font-size: 3rem;
+    padding-top: 35px;
 }
 
 .navigation {
@@ -13,11 +18,8 @@ h1 {
 }
 
 .navigation li a {
-    border: 1px solid red;
     text-decoration: none;
     color: black;
     font-weight: bold;
     font-size: 20px;
-    display: inline-block;
-    margin-top: 30px
 }

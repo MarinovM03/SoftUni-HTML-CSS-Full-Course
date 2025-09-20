@@ -6,14 +6,42 @@ body {
     color: #333;
 }
 
-header {
+.header {
     background-color: #4CAF50;
     color: white;
     padding: 1em;
     text-align: center;
 }
 
-main {
+.main {
     padding: 20px;
 }
 
+h2 {
+    color: #4CAF50;
+    margin-bottom: 0.5em;
+}
+
+.hobby-list {
+    list-style-type: square;
+    padding-left: 20px;
+}
+
+.link {
+    color: #4CAF50;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.link:hover {
+    text-decoration: underline;
+}
+
+/* Footer */
+.footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em;
+    margin-top: 20px;
+}

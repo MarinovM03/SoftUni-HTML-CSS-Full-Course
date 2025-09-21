@@ -11,4 +11,5 @@ span {
 div {
     background-color: greenyellow;
     display: inline-block;
+    width: 120px;
 }

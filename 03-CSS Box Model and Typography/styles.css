@@ -15,12 +15,39 @@ span {
     padding: 5px 10px;
 }
 
-div {
+/* div {
     background-color: greenyellow;
     display: inline-block;
     width: 120px;
-    /* max-height: 200px; */
     border: 2px dashed blue;
     margin: 20px;
     padding: 5px 10px;
+} */
+
+.divider {
+    margin-top: 60px;
+}
+
+div {
+    background-color: greenyellow;
+}
+
+.block {
+    display: block;
+    margin-bottom: 12px;
+}
+
+.inline {
+    display: inline;
+    padding: 4px;
+    margin-right: 12px;
+    /* margin-bottom: 12px; */
+}
+
+.inline-block {
+    display: inline-block;
+    padding: 4px;
+    /* margin-right: 12px;
+    margin-bottom: 12px; */
+    margin: 0 12px 12px 0;
 }

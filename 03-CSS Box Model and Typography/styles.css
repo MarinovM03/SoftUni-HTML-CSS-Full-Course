@@ -1,0 +1,14 @@
+p {
+   background-color: red;
+   width: 300px;
+}
+
+span {
+    background-color: orange;
+    width: 300px;
+}
+
+div {
+    background-color: greenyellow;
+    display: inline-block;
+}

@@ -1,15 +1,26 @@
 p {
    background-color: red;
    width: 300px;
+   height: 100px;
+   border: 2px dashed blue;
+   margin: 50px;
+   padding: 12px 24px;
 }
 
 span {
-    background-color: orange;
+    background-color: #ffa500;
     width: 300px;
+    border: 2px dashed blue;
+    margin: 20px;
+    padding: 5px 10px;
 }
 
 div {
     background-color: greenyellow;
     display: inline-block;
     width: 120px;
+    /* max-height: 200px; */
+    border: 2px dashed blue;
+    margin: 20px;
+    padding: 5px 10px;
 }

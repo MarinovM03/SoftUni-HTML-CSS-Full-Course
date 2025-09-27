@@ -1,0 +1,10 @@
+html {
+    font-size: 16px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    line-height: 1.2;
+    max-width: 65ch;
+    margin: 1em 0 0.5em 0;
+}
+

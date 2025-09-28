@@ -1,0 +1,32 @@
+p.highligt {
+    color: rgb(80, 154, 223);
+    font-size: 18px;
+}
+
+div#special-box {
+    background-color: lightcoral;
+    padding: 10px;
+}
+
+input[type="text"].styled-input {
+    border: 2px solid green;
+    padding: 8px;
+}
+
+.multi-class.special-text {
+    font-style: italic;
+    font-weight: bold;
+}
+
+p {
+    color: grey
+}
+
+p.highligt.special-text {
+    color: green
+}
+
+div#special-box p.highligt.special-text {
+    color: red
+}
+

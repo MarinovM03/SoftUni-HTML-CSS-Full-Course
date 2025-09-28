@@ -56,6 +56,24 @@
         .sidebar {
             box-sizing: content-box;
         }
+
+        .pseudo-elements {
+            border: 2px solid black;
+        }
+
+        .pseudo-elements::before {
+            display: block;
+            content: '~';
+            text-align: center;
+            font-size: 2em;
+        }
+
+        .pseudo-elements::after {
+            display: block;
+            content: '&';
+            text-align: center;
+            font-size: 2em;
+        }
     </style>
 </head>
 <body>
@@ -71,5 +89,9 @@
         width
         Lorem ipsum dolor sit amet consectetur adipisicing elit. A atque magni expedita fugit inventore nobis. Soluta magnam architecto, aliquid et provident ratione repellat hic rerum doloremque deleniti tenetur animi assumenda.
     </div>
+
+    <section class="pseudo-elements">
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quibusdam incidunt vitae architecto quisquam non fugiat modi, dolores sequi veniam eum dolorum eos cupiditate at officiis magni voluptatum dolore illo minus.</p>
+    </section>
 </body>
 </html>

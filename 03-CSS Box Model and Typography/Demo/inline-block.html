@@ -5,6 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Inline & Block</title>
     <style>
+        *, *::before, *::after {
+            box-sizing: inherit;
+        }
+
+        html {
+            box-sizing: border-box;
+        }
+
         span {
             /* background: rgb(0, 200, 0, 0.5); */
             padding: 1em;
@@ -17,6 +25,7 @@
         }
 
         div {
+            display: inline-block;
             background: lightgreen;
             padding: 1em;
             width: 50%;
@@ -43,6 +52,10 @@
             /* padding-inline-start: 1em;
             padding-inline-end: 1em; */
         }
+
+        .sidebar {
+            box-sizing: content-box;
+        }
     </style>
 </head>
 <body>
@@ -52,6 +65,9 @@
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, voluptate nisi magnam optio soluta aut perferendis cum nihil accusantium iure nobis architecto sint aliquid excepturi deserunt earum consectetur in sunt.</p>
 
     <div>
+        width
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. A atque magni expedita fugit inventore nobis. Soluta magnam architecto, aliquid et provident ratione repellat hic rerum doloremque deleniti tenetur animi assumenda.
+    </div><div>
         width
         Lorem ipsum dolor sit amet consectetur adipisicing elit. A atque magni expedita fugit inventore nobis. Soluta magnam architecto, aliquid et provident ratione repellat hic rerum doloremque deleniti tenetur animi assumenda.
     </div>

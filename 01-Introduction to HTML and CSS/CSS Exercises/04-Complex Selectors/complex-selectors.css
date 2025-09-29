@@ -69,3 +69,9 @@ footer {
     border: 3px dashed coral;
     border-radius: 10px;
 }
+
+.rabbit-img {
+    width: 300px;
+    margin: 20px;
+    border: 6px solid red;
+}

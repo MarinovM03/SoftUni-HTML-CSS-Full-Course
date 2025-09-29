@@ -1,0 +1,45 @@
+p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+section p {
+    color: green;
+    font-style: italic;
+    font-size: 20px;
+}
+
+ul.special-list > li {
+    color: darkred;
+    font-weight: bold;
+
+}
+
+ul.special-list li li {
+    color: blue;
+    font-weight: normal;
+}
+
+article + article {
+    background-color: lightcoral;
+    color: white;
+    padding: 10px;
+}
+
+h2.styled-siblings ~ p {
+    color: lightcoral;
+    font-style: italic;
+    text-align: center;
+}
+
+.styled-siblings {
+    text-align: center;
+    border: 3px solid lightsalmon;
+    padding: 10px;
+    font-weight: bold;
+}
+
+li.special-item + li a {
+    color: green;
+    font-weight: bold;
+    text-decoration: underline;
+}

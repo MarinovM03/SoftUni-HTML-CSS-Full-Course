@@ -1,0 +1,71 @@
+nav a {
+    font-family: monospace;
+    font-size: 17px;
+    text-decoration: none;
+}
+
+.nav-home {
+    font-weight: bold;
+}
+
+.nav-services {
+    font-style: italic;
+}
+
+div.special-container > section {
+    background-color: lightyellow;
+    border: 2px solid goldenrod;
+    padding: 10px;
+}
+
+section h3 {
+    color: lightcoral;
+    border: 2px dashed coral;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.styled-form {
+    max-width: 300px;
+    margin: 20px auto;
+    padding: 15px;
+    background-color: grey;
+    border: 1px solid black;
+    border-radius: 8px;
+}
+
+.styled-form input[type="text"],
+.styled-form input[type="password"] {
+    display: block;
+    width: 100%;
+    margin-bottom: 12px;
+    padding: 8px 10px;
+    border: 1px solid #aaa;
+    border-radius: 4px;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+
+footer {
+    text-align: center;
+    margin-top: 40px;
+    background-color: lightcoral;
+    font-weight: bold;
+    padding: 1px 0;
+}
+
+.services p {
+    background-color: lightblue;
+    padding: 10px;
+    max-width: 600px;
+    border: 2px solid blue;
+    border-radius: 8px;
+}
+
+.services h2 {
+    color: lightcoral;
+    text-align: center;
+    font-size: 2rem;
+    border: 3px dashed coral;
+    border-radius: 10px;
+}

@@ -8,3 +8,9 @@ header, section, footer {
     padding: 15px;
     border: 1px solid #ddd;
 }
+
+nav a:hover {
+    color: darkorange;
+    text-decoration: underline;
+}
+

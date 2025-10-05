@@ -4,6 +4,36 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Position</title>
+    <style>
+        body {
+            padding: 2em;
+        }
+
+        .container {
+            border: 2px solid black;
+            padding: 1em;
+        }
+
+        .item {
+            border: 2px solid lightcoral;
+            padding: 0.3em;
+        }
+        
+        .item:nth-child(2) {
+            background-color: lightblue;
+            position: relative;
+            top: 1em;
+            left: 3em;
+            z-index: 2;
+        }
+
+        .item:nth-child(3) {
+            position: relative;
+            z-index: 1;
+            background-color: lightgreen;
+        }
+
+    </style>
 </head>
 <body>
     

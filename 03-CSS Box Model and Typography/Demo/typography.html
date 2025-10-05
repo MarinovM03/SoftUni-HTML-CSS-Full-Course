@@ -13,7 +13,7 @@
 
         html {
             font-family: Verdana, sans-serif;
-            font-size: 12px;
+            font-size: clamp(11px, 11px + 0.25vw, 16px);
             line-height: 1.5;
         }
 
@@ -44,12 +44,48 @@
         }
 
         .site {
-            max-width: 66ch;
-            margin: 0 auto;
+            /* max-width: 66ch;
+            margin: 0 auto; */
+            width: 45%;
+            display: inline-block;
+        }
+
+        .site:nth-child(1) {
+            margin-right: 2em;
+        }
+
+        .site:nth-child(2) {
+            font-size: 0.8em;
         }
     </style>
 </head>
 <body>
+    
+    <div class="site">
+        <article>
+            <h1>Heading level 1</h1>
+            <h2>Heading level 2</h2>
+            <h3>Heading level 3</h3>
+            <h4>Heading level 4</h4>
+            <h5>Heading level 5</h5>
+            <h6>Heading level 6</h6>
+
+            <hr>
+
+            <h1>Some long title that shows the problems with large fonts and line-height</h1>
+
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorum illum nemo placeat error excepturi non, numquam officia beatae eius impedit. Vel iure sit temporibus laboriosam optio unde, fugit ipsam aut.</p>
+            
+            <h2>The title of the first section</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorum illum nemo placeat error excepturi non, numquam officia beatae eius impedit. Vel iure sit temporibus laboriosam optio unde, fugit ipsam aut.</p>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorum illum nemo placeat error excepturi non, numquam officia beatae eius impedit. Vel iure sit temporibus laboriosam optio unde, fugit ipsam aut.</p>
+            
+            <h3>Sub-section title of the first section</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorum illum nemo placeat error excepturi non, numquam officia beatae eius impedit. Vel iure sit temporibus laboriosam optio unde, fugit ipsam aut.</p>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorum illum nemo placeat error excepturi non, numquam officia beatae eius impedit. Vel iure sit temporibus laboriosam optio unde, fugit ipsam aut.</p>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorum illum nemo placeat error excepturi non, numquam officia beatae eius impedit. Vel iure sit temporibus laboriosam optio unde, fugit ipsam aut.</p>
+        </article>
+    </div>
     
     <div class="site">
         <article>

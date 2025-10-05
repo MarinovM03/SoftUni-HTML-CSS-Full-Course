@@ -12,18 +12,18 @@
         .container {
             border: 2px solid black;
             padding: 1em;
+            position: relative;
         }
 
         .item {
             border: 2px solid lightcoral;
-            padding: 0.3em;
+            padding: 1em;
         }
         
         .item:nth-child(2) {
             background-color: lightblue;
-            position: relative;
-            top: 1em;
-            left: 3em;
+            position: absolute;
+            inset: 2em 3em 4em 5em;
             z-index: 2;
         }
 

@@ -13,6 +13,10 @@ body {
 .site {
     border: 2px solid blue;
     padding: 2em;
+
+    max-width: 66ch;
+    margin: 0 auto;
+
 }
 
 .site > * {

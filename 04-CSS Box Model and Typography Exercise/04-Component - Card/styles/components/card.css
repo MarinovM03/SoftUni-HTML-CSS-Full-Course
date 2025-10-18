@@ -17,7 +17,20 @@
 
 .card .media {
     margin-bottom: 1.5em;
+    aspect-ratio: 1/1;
+    overflow: hidden;
+    background-color: lightblue;
+    position: relative;
 }
+
+.card .media img {
+    /* display: none; */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    translate: -50% -50%;
+}
+
 
 .card .main,
 .card .footer {

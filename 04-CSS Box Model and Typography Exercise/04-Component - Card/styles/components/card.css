@@ -31,6 +31,11 @@
     translate: -50% -50%;
 }
 
+.card .media img.landscape {
+    width: auto;
+    height: 100%;
+}
+
 
 .card .main,
 .card .footer {

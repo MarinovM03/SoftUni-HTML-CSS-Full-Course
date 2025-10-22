@@ -1,0 +1,23 @@
+.icons {
+
+}
+
+.icons .icon {
+    display: inline-block;
+    background: #EEE;
+    border-radius: 50%;
+    width: 3em;
+    aspect-ratio: 1/1;
+    text-align: center;
+    line-height: 3em;
+    margin: 0 0.5em;
+    color: #000;
+    transition: 
+        background-color 0.2s ease-in,
+        color 0.2s ease-in;
+}
+
+.icons .icon:hover {
+    background: #090;
+    color: #FFF;
+}

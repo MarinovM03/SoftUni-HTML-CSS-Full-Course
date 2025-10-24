@@ -2,7 +2,7 @@
 
 }
 
-.main-nav ul {
+.main-nav > ul {
     display: flex;
     gap: 0.5em;
 }
@@ -13,7 +13,29 @@
 }
 
 .main-nav li {
+    position: relative;
+    padding: 0.1em;
+}
 
+.main-nav li ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    flex-direction: column;
+    gap: 0.3em;
+    /* background: red; */
+    padding-top: 10px;
+}
+
+.main-nav li ul li ul {
+    top: 0;
+    left: 100%;
+    padding: 0 0 0 10px;
+}
+
+.main-nav li:hover > ul {
+    display: flex;
 }
 
 .main-nav a {
@@ -22,6 +44,7 @@
     border-radius: 0.3em;
 }
 
+.main-nav li:hover > a,
 .main-nav a:hover {
     background-color: #369;
     color: #fff;

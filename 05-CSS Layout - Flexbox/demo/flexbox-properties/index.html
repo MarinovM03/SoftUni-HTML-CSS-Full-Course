@@ -21,14 +21,17 @@
             display: flex;
             overflow: hidden;
             flex-direction: row;
+            align-items: start;
+            flex-wrap: wrap;
+            min-height: 80vh;
+            align-content: center;
             /* justify-content: start; */
-            align-items: center;
         }
 
         .item {
             border: 1px solid green;
             padding: 0.5em 0.8em;
-            margin: 0 auto;  /* same as justify-content: space-around; */
+            /* margin: 0 auto;  /* same as justify-content: space-around; */
         }
 
         .item:nth-child(1) {

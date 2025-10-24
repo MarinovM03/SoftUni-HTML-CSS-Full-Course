@@ -5,7 +5,55 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Flexbox Navigation</title>
     <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            padding: 2em;
+        }
+
+        a {
+            color: #369;
+            text-decoration: none;
+        }
+
+        .section {
+            padding: 0 calc((100% - 700px) / 2);
+        }
+
+        .section.site-header {
+            display: flex;
+            align-items: center;
+        }
+
+        .section.site-header nav {
+            margin: 0 auto;
+        }
+
+        .section.site-header nav ul {
+            display: flex;
+            gap: 1em;
+        }
+
+        .section.site-header nav ul li {
+            display: block;
+        }
+
+        .section.site-header nav ul li a {
+            padding: 0.5em 0.8em;
+            display: block;
+            background: rgb(0, 0, 0, 0.05);
+            border-radius: 0.3em;
+        }
         
+        .section.site-header nav ul li a:hover {
+            background-color: #369;
+            color: #FFF;
+        }
+
     </style>
 </head>
 <body>
